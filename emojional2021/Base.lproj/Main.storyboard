@@ -20,11 +20,17 @@
                                 <rect key="frame" x="144" y="490" width="130" height="156"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="🐱"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HUH-v6-Gwg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-XB-2zu">
                                 <rect key="frame" x="142" y="200.5" width="130" height="156"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="🐶"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deT-PI-FhL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
