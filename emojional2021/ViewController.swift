@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
         let selectedEmotion = sender.titleLabel?.text //stores the emoji tapped
         let options = customMessages[emojis[selectedEmotion!]!]!//loads possible messages
-        let emojiMessage = options[0]
+        let emojiMessage = options.randomElement()
         
         let alertController = UIAlertController(title: emojis[selectedEmotion!], message: emojiMessage, preferredStyle: UIAlertController.Style.alert)//this creates the alert that is called later. Note: when calling a value from the dictionary you must unwrap it (!)
         
